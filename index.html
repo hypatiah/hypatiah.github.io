@@ -31,129 +31,131 @@
 
   <!-- Theme CSS -->
   <link href="css/application.css" rel="stylesheet">
-
+  <script src="js/application.js"></script>
   <title>Danielle Hassid</title>
 </head>
-<body background="green-forest.jpg">
-<!-- <div class="loader-wrap">
-    <img src="/img/paintloader.gif" class="loader" alt="loading">
-</div> -->
-  <!-- Navigation -->
-     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-         <div class="container">
-             <div class="navbar-header">
-                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                     Menu <i class="fa fa-bars"></i>
-                 </button>
-                 <a class="navbar-brand page-scroll" href="#page-top">
-                     <i class="fa fa-play-circle"></i> <span class="light">Danielle Hassid</span>
-                 </a>
-             </div>
+<body onload="loading()">
+  <div class="loader-wrap">
+      <img src="/img/paintloader.gif" class="loader" id="loader" alt="loading">
+  </div>
 
-             <!-- Collect the nav links, forms, and other content for toggling -->
-             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                 <ul class="nav navbar-nav">
-                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                     <li class="hidden">
-                         <a href="#page-top"></a>
-                     </li>
-                     <li>
-                         <a class="page-scroll" href="#about">About</a>
-                     </li>
-                     <li>
-                         <a class="page-scroll" href="#projects">Projects</a>
-                     </li>
-                     <li>
-                         <a class="page-scroll" href="#contact">Contact</a>
-                     </li>
-                 </ul>
+  <div id="myDiv">
+    <!-- Navigation -->
+       <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+           <div class="container">
+               <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                       Menu <i class="fa fa-bars"></i>
+                   </button>
+                   <a class="navbar-brand page-scroll" href="#page-top">
+                       <i class="fa fa-play-circle"></i> <span class="light">Danielle Hassid</span>
+                   </a>
+               </div>
+
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                   <ul class="nav navbar-nav">
+                       <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                       <li class="hidden">
+                           <a href="#page-top"></a>
+                       </li>
+                       <li>
+                           <a class="page-scroll" href="#about">About</a>
+                       </li>
+                       <li>
+                           <a class="page-scroll" href="#projects">Projects</a>
+                       </li>
+                       <li>
+                           <a class="page-scroll" href="#contact">Contact</a>
+                       </li>
+                   </ul>
+               </div>
+               <!-- /.navbar-collapse -->
+           </div>
+           <!-- /.container -->
+       </nav>
+
+     <!-- Full Page Image Background Carousel Header -->
+     <header id="myCarousel" class="carousel slide">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+             <li data-target="#myCarousel" data-slide-to="1"></li>
+             <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol>
+
+         <!-- Wrapper for Slides -->
+         <div class="carousel-inner">
+             <div class="item active">
+                 <!-- Set the first background image using inline CSS below. -->
+                 <div class="fill" style="background-image:url('./img/green-forest.jpg');"></div>
+                 <div class="carousel-caption">
+                     <h2>Caption 1</h2>
+                 </div>
              </div>
-             <!-- /.navbar-collapse -->
+             <div class="item">
+                 <!-- Set the second background image using inline CSS below. -->
+                 <div class="fill" style="background-image:url('./img/sanfrancisco.jpg');"></div>
+                 <div class="carousel-caption">
+                     <h2>Caption 2</h2>
+                 </div>
+             </div>
+             <div class="item">
+                 <!-- Set the third background image using inline CSS below. -->
+                 <div class="fill" style="background-image: url('./img/mellowphoto.jpg');"></div>
+                 <div class="carousel-caption">
+                     <h2>Caption 3</h2>
+                 </div>
+             </div>
          </div>
-         <!-- /.container -->
-     </nav>
 
-   <!-- Full Page Image Background Carousel Header -->
-   <header id="myCarousel" class="carousel slide">
-       <!-- Indicators -->
-       <ol class="carousel-indicators">
-           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-           <li data-target="#myCarousel" data-slide-to="1"></li>
-           <li data-target="#myCarousel" data-slide-to="2"></li>
-       </ol>
+         <!-- Controls -->
+         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+             <span class="icon-prev"></span>
+         </a>
+         <a class="right carousel-control" href="#myCarousel" data-slide="next">
+             <span class="icon-next"></span>
+         </a>
 
-       <!-- Wrapper for Slides -->
-       <div class="carousel-inner">
-           <div class="item active">
-               <!-- Set the first background image using inline CSS below. -->
-               <div class="fill" style="background-image:url('./img/green-forest.jpg');"></div>
-               <div class="carousel-caption">
-                   <h2>Caption 1</h2>
-               </div>
-           </div>
-           <div class="item">
-               <!-- Set the second background image using inline CSS below. -->
-               <div class="fill" style="background-image:url('./img/sanfrancisco.jpg');"></div>
-               <div class="carousel-caption">
-                   <h2>Caption 2</h2>
-               </div>
-           </div>
-           <div class="item">
-               <!-- Set the third background image using inline CSS below. -->
-               <div class="fill" style="background-image:url('./img/orangetree.jpg');"></div>
-               <div class="carousel-caption">
-                   <h2>Caption 3</h2>
-               </div>
-           </div>
-       </div>
+     </header>
 
-       <!-- Controls -->
-       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-           <span class="icon-prev"></span>
-       </a>
-       <a class="right carousel-control" href="#myCarousel" data-slide="next">
-           <span class="icon-next"></span>
-       </a>
+     <!-- Page Content -->
+     <div class="container">
 
-   </header>
+         <div class="row">
+             <div class="col-lg-12">
+                 <h1>Welcome.</h1>
+                 <p>Always happy to grab a coffee and chat. Email me at danielle.hassid@gmail.com.</p>
+             </div>
+         </div>
 
-   <!-- Page Content -->
-   <div class="container">
+         <hr>
 
-       <div class="row">
-           <div class="col-lg-12">
-               <h1>Full Slider by Start Bootstrap</h1>
-               <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>full-slider.css</code>file.</p>
-           </div>
-       </div>
+         <!-- Footer -->
+         <footer>
+             <div class="row">
+                 <div class="col-lg-12">
+                     <p>Copyright &copy; Danielle Hassid 2016</p>
+                 </div>
+             </div>
+             <!-- /.row -->
+         </footer>
 
-       <hr>
+     </div>
+  </div>
+     <!-- /.container -->
 
-       <!-- Footer -->
-       <footer>
-           <div class="row">
-               <div class="col-lg-12">
-                   <p>Copyright &copy; Danielle Hassid 2016</p>
-               </div>
-           </div>
-           <!-- /.row -->
-       </footer>
+     <!-- jQuery -->
+     <script src="js/jquery.js"></script>
 
-   </div>
-   <!-- /.container -->
+     <!-- Bootstrap Core JavaScript -->
+     <script src="js/bootstrap.min.js"></script>
 
-   <!-- jQuery -->
-   <script src="js/jquery.js"></script>
-
-   <!-- Bootstrap Core JavaScript -->
-   <script src="js/bootstrap.min.js"></script>
-
-   <!-- Script to Activate the Carousel -->
-   <script>
-   $('.carousel').carousel({
-      //  interval: 5000 //changes the speed
-   })
-   </script>
-
+     <!-- Script to Activate the Carousel -->
+     <script>
+     $('.carousel').carousel({
+        //  interval: 5000 //changes the speed
+     })
+     </script>
 </body>
 </html>
