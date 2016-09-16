@@ -1,161 +1,244 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- Custom CSS -->
-  <link href="css/full-slider.css" rel="stylesheet">
+    <title>Danielle Hassid</title>
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-  <!-- Latest compiled JavaScript -->
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
 
-  <!-- Custom Fonts -->
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Theme CSS -->
+    <link href="css/new-age.min.css" rel="stylesheet">
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  <!-- Theme CSS -->
-  <link href="css/application.css" rel="stylesheet">
-  <script src="js/application.js"></script>
-  <title>Danielle Hassid</title>
 </head>
-<body onload="loading()">
-  <div class="loader-wrap">
-      <img src="/img/paintloader.gif" class="loader" id="loader" alt="loading">
-  </div>
 
-  <div id="myDiv">
-    <!-- Navigation -->
-       <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-           <div class="container">
-               <div class="navbar-header">
-                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                       Menu <i class="fa fa-bars"></i>
-                   </button>
-                   <a class="navbar-brand page-scroll" href="#page-top">
-                       <i class="fa fa-play-circle"></i> <span class="light">Danielle Hassid</span>
-                   </a>
-               </div>
+<body id="page-top">
 
-               <!-- Collect the nav links, forms, and other content for toggling -->
-               <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                   <ul class="nav navbar-nav">
-                       <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                       <li class="hidden">
-                           <a href="#page-top"></a>
-                       </li>
-                       <li>
-                           <a class="page-scroll" href="#about">About</a>
-                       </li>
-                       <li>
-                           <a class="page-scroll" href="#projects">Projects</a>
-                       </li>
-                       <li>
-                           <a class="page-scroll" href="#contact">Contact</a>
-                       </li>
-                   </ul>
-               </div>
-               <!-- /.navbar-collapse -->
-           </div>
-           <!-- /.container -->
-       </nav>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Danielle Hassid</a>
+            </div>
 
-     <!-- Full Page Image Background Carousel Header -->
-     <header id="myCarousel" class="carousel slide">
-         <!-- Indicators -->
-         <ol class="carousel-indicators">
-             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-             <li data-target="#myCarousel" data-slide-to="1"></li>
-             <li data-target="#myCarousel" data-slide-to="2"></li>
-         </ol>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#download">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-         <!-- Wrapper for Slides -->
-         <div class="carousel-inner">
-             <div class="item active">
-                 <!-- Set the first background image using inline CSS below. -->
-                 <div class="fill" style="background-image:url('./img/green-forest.jpg');"></div>
-                 <div class="carousel-caption">
-                     <h2>Caption 1</h2>
-                 </div>
-             </div>
-             <div class="item">
-                 <!-- Set the second background image using inline CSS below. -->
-                 <div class="fill" style="background-image:url('./img/sanfrancisco.jpg');"></div>
-                 <div class="carousel-caption">
-                     <h2>Caption 2</h2>
-                 </div>
-             </div>
-             <div class="item">
-                 <!-- Set the third background image using inline CSS below. -->
-                 <div class="fill" style="background-image: url('./img/mellowphoto.jpg');"></div>
-                 <div class="carousel-caption">
-                     <h2>Caption 3</h2>
-                 </div>
-             </div>
-         </div>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1>Danielle Hassid <br>Software Developer</h1>
+                            <a href="#download" class="btn btn-outline btn-xl page-scroll">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/simul_enter2.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-         <!-- Controls -->
-         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-             <span class="icon-prev"></span>
-         </a>
-         <a class="right carousel-control" href="#myCarousel" data-slide="next">
-             <span class="icon-next"></span>
-         </a>
+    <section id="download" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <h2 class="section-heading">About Me</h2>
+                    <img style="max-height: 300px; display:block; margin:auto;" src="./img/daniellehassid.JPG" alt="Danielle Hassid" class="img-responsive img-circle"><br>
+                    <h3>Danielle Hassid</h3>
+                    <p>I’m a software developer with a mathematics background who is passionate about learning, sharing knowledge and building meaningful things on an international level.</p>
+                    <div class="badges">
+                        <a href="./sept_16_resume.pdf" class="btn btn-outline btn-xl">Download Resume</a>
+                        <!-- <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-     </header>
+    <section id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h2>Projects</h2>
+                        <p class="text-muted">Check out what I've been working on lately</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/reach.png" class="img-responsive" alt=""> </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <h3>Simul</h3>
+                                    <p class="text-muted">Visibility and resource connecting platform for refugees.</p>
+                                    <a href="https://github.com/sf-red-pandas-2016/simul-react-native"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <h3>Reach</h3>
+                                    <p class="text-muted">Preset texts in a healthy mindset, so when you need to reach out you simply open and press 'REACH'</p>
+                                      <a href="https://github.com/hypatiah/reach"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <h3>Mathy</h3>
+                                    <p class="text-muted">A piece showing the beauty of mathematics and programming!</p>
+                                      <a href="https://github.com/hypatiah"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <h3>Way Pools</h3>
+                                    <p class="text-muted">Carpool to and from festivals. Make friends along the way.</p>
+                                    <a href="https://github.com/hypatiah/waypools"><i class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-     <!-- Page Content -->
-     <div class="container">
+    <section class="cta">
+        <div class="cta-content">
+            <div class="container">
+                <h2>Let's build<br>and chat together.</h2>
+                <a href="#contact" class="btn btn-outline btn-xl page-scroll">Contact Me</a>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
 
-         <div class="row">
-             <div class="col-lg-12">
-                 <h1>Welcome.</h1>
-                 <p>Always happy to grab a coffee and chat. Email me at danielle.hassid@gmail.com.</p>
-             </div>
-         </div>
+    <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <h2>Contact me.</h2>
+            <ul class="list-inline list-social">
+              <li class="social-twitter">
+                <a href="https://github.com/hypatiah"><i class="fa fa-github"></i></a>
+              </li>
+              <li class="social-facebook">
+                <a href="https://www.linkedin.com/in/daniellehassid"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <!-- <li class="social-google-plus">
+              <a href="https://www.linkedin.com/in/daniellehassid"><i class="fa fa-linkedin"></i></a>
+            </li> -->
+          </ul>
+            <h3 color="#27c2dc">danielle.hassid@gmail.com</h3>
+            <br>
+            <a href="./sept_16_resume.pdf" class="btn btn-outline btn-xl">Download Resume</a>
+            <br>
+        </div>
+    </section>
 
-         <hr>
+    <footer>
+        <div class="container">
+            <p>&copy; 2016 Danielle Hassid. All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
-         <!-- Footer -->
-         <footer>
-             <div class="row">
-                 <div class="col-lg-12">
-                     <p>Copyright &copy; Danielle Hassid 2016</p>
-                 </div>
-             </div>
-             <!-- /.row -->
-         </footer>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
-     </div>
-  </div>
-     <!-- /.container -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-     <!-- jQuery -->
-     <script src="js/jquery.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-     <!-- Bootstrap Core JavaScript -->
-     <script src="js/bootstrap.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/new-age.min.js"></script>
 
-     <!-- Script to Activate the Carousel -->
-     <script>
-     $('.carousel').carousel({
-        //  interval: 5000 //changes the speed
-     })
-     </script>
 </body>
+
 </html>
