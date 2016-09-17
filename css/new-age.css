@@ -253,36 +253,36 @@ section.download .badges .badge-link img {
     font-size: 70px;
   }
 }
-section.features .section-heading {
+section.projects .section-heading {
   margin-bottom: 100px;
 }
-section.features .section-heading h2 {
+section.projects .section-heading h2 {
   margin-top: 0;
 }
-section.features .section-heading p {
+section.projects .section-heading p {
   margin-bottom: 0;
 }
-section.features .device-container,
-section.features .feature-item {
+section.projects .device-container,
+section.projects .feature-item {
   max-width: 300px;
   margin: 0 auto;
 }
-section.features .device-container {
+section.projects .device-container {
   margin-bottom: 100px;
 }
 @media (min-width: 992px) {
-  section.features .device-container {
+  section.projects .device-container {
     margin-bottom: 0;
   }
 }
-section.features .feature-item {
+section.projects .feature-item {
   text-align: center;
   margin-bottom: 100px;
 }
-section.features .feature-item h3 {
+section.projects .feature-item h3 {
   font-size: 30px;
 }
-section.features .feature-item i {
+section.projects .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
   background: linear-gradient(to left, #7b4397, #dc2430);
@@ -290,8 +290,8 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 992px) {
-  section.features .device-container,
-  section.features .feature-item {
+  section.projects .device-container,
+  section.projects .feature-item {
     max-width: none;
   }
 }
