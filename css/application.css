@@ -2,11 +2,11 @@
   color: #27c2dc;
 }
 
-/*@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 460px) {
   #resume-first-link {
     margin-bottom: 5%;
   }
-}*/
+}
 
 /*[id*="project-"]:hover {
   background-color: red;
