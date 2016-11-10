@@ -4279,7 +4279,7 @@ jQuery.fn.extend( {
 			div.style.cssText =
 
 				// Support: Firefox<29, Android 2.3
-				// vendor-prefix box-sizing
+				// Vendor-prefix box-sizing
 				"-webkit-box-sizing:content-box;-moz-box-sizing:content-box;" +
 				"box-sizing:content-box;display:block;margin:0;border:0;" +
 				"padding:1px;width:1px;zoom:1";
@@ -6547,7 +6547,7 @@ var documentElement = document.documentElement;
 	container.appendChild( div );
 
 	// Support: Firefox<29, Android 2.3
-	// vendor-prefix box-sizing
+	// Vendor-prefix box-sizing
 	support.boxSizing = div.style.boxSizing === "" || div.style.MozBoxSizing === "" ||
 		div.style.WebkitBoxSizing === "";
 
@@ -6614,7 +6614,7 @@ var documentElement = document.documentElement;
 		div.style.cssText =
 
 			// Support: Android 2.3
-			// vendor-prefix box-sizing
+			// Vendor-prefix box-sizing
 			"-webkit-box-sizing:border-box;box-sizing:border-box;" +
 			"position:relative;display:block;" +
 			"margin:auto;border:1px;padding:1px;" +
@@ -6647,7 +6647,7 @@ var documentElement = document.documentElement;
 			contents.style.cssText = div.style.cssText =
 
 				// Support: Android 2.3
-				// vendor-prefix box-sizing
+				// Vendor-prefix box-sizing
 				"-webkit-box-sizing:content-box;-moz-box-sizing:content-box;" +
 				"box-sizing:content-box;display:block;margin:0;border:0;padding:0";
 			contents.style.marginRight = contents.style.width = "0";
